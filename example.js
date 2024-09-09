@@ -69,7 +69,7 @@ const objectNames = {
 
 const loader = new GLTFLoader();
 loader.load(
-  'models/final5.glb', 
+  '/final5.glb', 
   function (gltf) {
     object = gltf.scene;
     object.position.set(0, -1, 0);

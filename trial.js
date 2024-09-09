@@ -49,7 +49,7 @@ controls.update();
 
 const loader = new GLTFLoader();
 loader.load(
-  'models/final3.glb',
+  '/final3.glb',
   function (gltf) {
     object = gltf.scene;
     object.position.set(0, -1.25, 0);
