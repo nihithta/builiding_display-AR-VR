@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janapriya UPSCALE - Bahiti Chandanagar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Janapriya<span>UPSCALE</span></h1>
+            <p>Home is where the heart is</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <div class="form-container">
+            <h2>Bahiti</h2>
+            <h3>Chandanagar</h3>
+            <form>
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <input type="tel" name="phone" placeholder="Phone">
+                <select name="apartment-type">
+                    <option value="3bhk">3 BHK Starting From 1.56 Cr</option>
+                </select>
+                <label>
+                    <input type="checkbox" name="allow-contact"> 
+                    I allow Janapriya Upscale representatives to override DND registration and contact me.
+                </label>
+                <button type="submit">Get Quote</button>
+            </form>
+        </div>
+        <div class="image-container-cover">
+            <h2 style="text-align: center;">Experience reality by rotating the building!</h2>
+            <div id="container3Dcover"></div>
+        </div>
+    </section>
+
+    <!-- New Section for the Project Description -->
+    <section class="about-project">
+        <div class="project-image">
+            <img src="bottom left.jpg" alt="Bahiti Project">
+        </div>
+        <div class="project-description">
+            <h2>About the Project</h2>
+            <p>A preferred residential destination of Hyderabad, Chandanagagr is an exceptional place to live in. Affluent and well planned with all necessary amenities available within easy reach, the neighbourhood has excellent educational institutions, healthcare facilities, shopping malls and green spaces. Bahiti, a part of 25 acre NILE VALLEY Township beckons you to this exclusive 5 star living of absolute comfort, convenience, connectivity and growth. Come home!</p>
+        </div>
+    </section>
+    <!--New Section for the Choose Your Home-->
+    <section class="choose-home">
+        <div class="block">
+            <h1 class="note">Please wait while the model loads <span id="loading-percentage">0%</span></h1>
+            <h1 class="heading">Choose <span>Your Home</span></h1>
+            <h2>in <span>3 Simple Steps</span></h2>
+            <ol class="steps-list">
+                <li style="margin-bottom: 0px;">Click on your desired block</li>
+                <span class="steps-span">(Move the cursor over buildings to view their names)</span>
+                <li>Choose the required house facing</li>
+                <li>Select your floor</li>
+            </ol>
+            <h2>And that's it! All set.</h2>
+            <button onclick="window.location.href='newpage.html'">Get Started >></button>
+        </div>
+        <div class="image-container">
+            <div id="container3D"></div>
+        </div>
+        <div id="object-name" style="position: absolute; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 5px; border-radius: 5px; display: none;"></div>
+    </section>
+    
+
+    <!-- Tooltip for hovered object names -->
+
+    <!-- Import Three.js script -->
+   
+    <script type="module" src="trial.js"></script>
+    <script type="module" src="example.js"></script>
+</body>
+</html>

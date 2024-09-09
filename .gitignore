@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+jspm_packages/
+dist/
+build/
+
+# Three.js specific
+.DS_Store
+
+# Ignore build files
+*.glb
+*.gltf
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Mac system files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
